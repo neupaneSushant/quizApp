@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: black;
+}
+body {
+  background: linear-gradient(180deg, rgb(0, 0, 238, 0.5), rgb(0, 0, 78));
+}
+
+.card {
+  max-width: 512px;
+  min-height: 512px;
+  margin: 100 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px rgb(0, 0, 0, 0.5);
+}
+.card > h1 {
+  border-bottom: 2px solid black;
+  width: 100%;
+}
+
+.question_field {
+  font-size: 22px;
+  width: 100%;
+}
+
+.options {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.button {
+  padding: 5px 0px;
+  font-size: 16;
+  font-weight: 600;
+}
+
+.submit {
+  background-color: navy;
+  color: white;
+  padding: 5px;
+  width: 40%;
+  border-radius: 15px;
+}
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
