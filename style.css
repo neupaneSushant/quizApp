@@ -5,11 +5,12 @@
   color: black;
 }
 body {
+    height: 100%;
   background: linear-gradient(180deg, rgb(0, 0, 238, 0.5), rgb(0, 0, 78));
 }
 
 .card {
-  max-width: 512px;
+  max-width: 500px;
   min-height: 512px;
   margin: 100 auto;
   display: flex;
