@@ -49,13 +49,24 @@ body {
 
 }
 
+.button:active{
+  background-color: rgb(182, 182, 182);
+}
+
 .submit {
-  background-color: navy;
+  background-color:navy;
   color: white;
   padding: 5px;
   width: 40%;
   border-radius: 15px;
+  color: white;
 }
+
+.submit:active{
+  background-color: rgb(1, 1, 170);
+
+}
+
 .green {
   background-color: green;
 }
